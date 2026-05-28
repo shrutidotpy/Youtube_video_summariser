@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Video Summarizer</title>
+    <!-- Online Favicon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" type="image/png" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" type="image/png" />
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Custom JS -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <!-- Online Navbar Logo -->
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" class="navbar-image mr-2" alt="Logo" />
+            <h1 class="navbar-heading mb-0">SPARK</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <div id="sectionHomePage" class="container mt-5">
+        <main>
+            <h1 class="header text-center">Summarized Points and Rapid Knowledge</h1>
+            <div class="space mt-4">
+                <form id="video-form" class="form-inline justify-content-center mb-4">
+                    <input type="text" id="video-url" class="form-control mr-2" placeholder="Enter YouTube video URL" required style="width: 60%;">
+                    <button type="submit" class="btn btn-primary">Summarize</button>
+                </form>
+                <div class="video-container mb-4 text-center">
+                    <iframe id="video" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="summary-container p-4 bg-light rounded shadow" id="summary">
+                    <!-- Summary will appear here -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+        crossorigin="anonymous"></script>
+</body>
+</html>
