@@ -7,6 +7,7 @@ An intelligent, lightweight web application that fetches, embeds, and summarizes
 ## 📌 Table of Contents
 
 - [Key Features](#-key-features)
+- [Screenshots](#-screenshots)
 - [Architecture & Workflow](#-architecture--workflow)
 - [Tech Stack](#-tech-stack)
 - [API Reference](#-api-reference)
@@ -27,6 +28,19 @@ An intelligent, lightweight web application that fetches, embeds, and summarizes
 - **Metadata Extraction:** Fetches key video details (such as title and channel/author name) using YouTube's oEmbed API.
 - **Asynchronous Execution:** Implements beautiful dynamic loading animations to keep user experience interactive while processing.
 - **Robust Exception Handling:** Gracefully handles videos with disabled or unavailable transcripts, invalid URLs, and network timeouts.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="Outputs/Screenshot%202024-12-12%20143317.png" width="48%" alt="Landing Page UI" />
+  <img src="Outputs/Screenshot%202024-12-12%20143332.png" width="48%" alt="Video Summarization Input" />
+</p>
+<p align="center">
+  <img src="Outputs/Screenshot%202024-12-12%20143406.png" width="48%" alt="Dynamic Summary Generated" />
+  <img src="Outputs/Screenshot%202024-12-12%20143431.png" width="48%" alt="Error and Alert Handling" />
+</p>
 
 ---
 
